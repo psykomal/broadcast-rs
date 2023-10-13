@@ -7,9 +7,9 @@
 
 Proposed Solution :
 
-Use a MultiQueue which is a queue (has channel) and has a list of subscribers
-RustRoutines are the abstration equivalent to : Thread + Mailbox (something like Elixir processes)
-Currently RustRoutine stores the main queue tx internally (TODO: extend this in a better way such taht any RustRoutine can send and listen to any Queue)
+- Use a MultiQueue which is a queue (has channel) and has a list of subscribers
+- RustRoutines are the abstration equivalent to : Thread + Mailbox (something like Elixir processes)
+- Currently RustRoutine stores the main queue tx internally (TODO: extend this in a better way such that any RustRoutine can send and listen to any Queue)
 
 Process:
 1. Create a MultiQueue and start broadcast operation (thread keeps listening to its mailbox and broadcasts to all subscribers except the sender)
