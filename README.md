@@ -15,7 +15,7 @@ Process:
 4. Gossip() currently waits for rand time and sends msgs to the MultiQueue
 5. Other RustRoutines listen and print the message
 
-Disclaimer: This is an assignment for the Empowered Programmer Cohort. An attempt to better understand concurrency primitives and handson with Rust. Nothing here promises to be idiomatic Rust or even the right design.
+***Disclaimer**: This is an assignment for the Empowered Programmer Cohort. An attempt to better understand concurrency primitives and handson with Rust. Nothing here promises to be idiomatic Rust or even the right design.*
 
 TODOS:
 - Go through https://crates.io/crates/multiqueue, https://github.com/abbychau/multiqueue2, https://github.com/zesterer/flume to better understand how this is done in real-world Rust
